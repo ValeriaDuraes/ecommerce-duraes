@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../Navbar/index'
 import Logo from '../Logo'
+import SearchBar from '../SearchBar'
+import Cart from '../Cart'
 
 const headerStyle = {
   display: 'flex',
@@ -16,7 +18,9 @@ const Header = () => {
   return (
     <div style={headerStyle}>
       <Logo />
+      <SearchBar />
       <Navbar />
+      <Cart />
     </div>
   )
 }

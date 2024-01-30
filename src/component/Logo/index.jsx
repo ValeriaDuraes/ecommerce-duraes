@@ -14,6 +14,7 @@ const Logo = () => {
       style={imageStyle}
       src={logo} 
       alt="Logo Bee-commerce" 
+      className="rounded-full"
       />
     </div>
   );

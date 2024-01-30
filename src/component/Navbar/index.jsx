@@ -15,7 +15,7 @@ const ancorStyles = {
 const Navbar = () => {
   return (
     <div>
-      <ul className="text-yellow-500" style={categoriesList}  >
+      <ul className="text-yellow-500" style={categoriesList} >
         <li><a href="http://" style={ancorStyles}>Home</a></li>
         <li><a href="http://" style={ancorStyles}>Products</a></li>
         <li><a href="http://" style={ancorStyles}>Contact</a></li>
@@ -24,4 +24,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
