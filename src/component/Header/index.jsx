@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../Navbar/index'
 import Logo from '../Logo'
 import SearchBar from '../SearchBar'
 import Cart from '../Cart'
@@ -19,7 +18,6 @@ const Header = () => {
     <div style={headerStyle}>
       <Logo />
       <SearchBar />
-      <Navbar />
       <Cart />
     </div>
   )

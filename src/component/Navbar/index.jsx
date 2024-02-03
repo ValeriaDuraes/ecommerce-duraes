@@ -1,26 +1,26 @@
 import React from 'react'
 
-const categoriesList = {
-  display: 'flex',
-  gap: '15px',
-  listStyle: 'none',
-  alignItems: 'center',
-  justifyContent: 'center',
-}
-
-const ancorStyles = {
-  textDecoration: 'none',
-}
-
 const Navbar = () => {
   return (
     <div>
-      <ul className="text-yellow-500" style={categoriesList} >
-        <li><a href="http://" style={ancorStyles}>Home</a></li>
-        <li><a href="http://" style={ancorStyles}>Products</a></li>
-        <li><a href="http://" style={ancorStyles}>Contact</a></li>
+      <ul className="flex justify-center items-center gap-5 text-yellow-500">
+        <li className='list-none'>
+          <a href="http://localhost:3000/" className='no-underline'>
+            Home
+          </a>
+        </li>
+        <li className='list-none'>
+          <a href="http://localhost:3000/" className='no-underline'>
+            Products
+          </a>
+        </li>
+        <li className='list-none'>
+          <a href="http://localhost:3000/" className='no-underline'>
+            Contact
+          </a>
+        </li> 
       </ul>
-    </div>
+    </div> 
   )
 }
 
